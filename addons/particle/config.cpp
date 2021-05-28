@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class GRAD_sandstorm
+    class grad_sandstorm
     {
         units[]={};
         weapons[]={};
@@ -24,7 +24,7 @@ class CfgCloudlets
         interval=0.029999999;
         circleRadius=0;
         circleVelocity[]={0,0,0};
-        particleShape="\GRAD_sandstorm\particle\p3d\sandparticle.p3d";
+        particleShape="grad_sandstorm\addons\particle\p3d\sandparticle.p3d";
         particleFSNtieth=13;
         particleFSIndex=0;
         particleFSFrameCount=12;

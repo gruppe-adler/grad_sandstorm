@@ -1,0 +1,23 @@
+name = "GRAD Sandstorm"
+prefix = "grad_sandstorm"
+author = "Gruppe Adler"
+template = "cba"
+mainprefix = "z"
+folder_optionals = true
+sig_version = 3
+
+files = [
+]
+include = [
+    "./include"
+]
+
+key_name = "{{prefix}}_{{version}}"
+authority = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+
+releasebuild = [
+    "@zip grad_sandstorm-{{semver.major}}.{{semver.minor}}.{{semver.patch}}"
+]
+
+[header_exts]
+version= "{{git \"id 8\"}}"
